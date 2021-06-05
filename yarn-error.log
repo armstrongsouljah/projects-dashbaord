@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/armstrong/.nvm/versions/node/v12.22.1/bin/node /Users/armstrong/.nvm/versions/node/v12.22.1/bin/yarn add bcrypt express dotenv jsonwebtoken mongodb mongooose
+
+PATH: 
+  /Users/armstrong/.nvm/versions/node/v12.22.1/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.22.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mongooose: Not found
+      at Request.params.callback [as _callback] (/Users/armstrong/.nvm/versions/node/v12.22.1/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/armstrong/.nvm/versions/node/v12.22.1/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/Users/armstrong/.nvm/versions/node/v12.22.1/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/Users/armstrong/.nvm/versions/node/v12.22.1/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1241:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "projects-dashbaord",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:armstrongsouljah/projects-dashbaord.git",
+    "author": "Armstrong <armstrongsouljah@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
